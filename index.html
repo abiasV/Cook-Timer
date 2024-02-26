@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="#">
+  <script src="jquery-3.7.1.min.js"></script>	
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Egg Timer</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Countdown Timer</h2>
+    <div class="square1"></div>
+    <div class="square2"></div>
+    <div id="progressBar">
+      <div class="bar"></div>
+    </div>
+    <div class="time-box">
+      <div class="countdown-value">00:00</div>
+    </div>
+    <!-- <audio id="timer-sound" src="timer-sound.mp3"></audio>  -->
+     <!-- autoplay="autoplay" -->
+    <audio id="timer-sound" preload="auto" >
+      <source src="timer-sound.mp3">
+    </audio>
+  
+    <div class="btn-box">
+        <form name="boil-eggs" action="#" method="POST">
+            <label for="time-select">How would you like to cook today?</label>
+            <select name="time-boil" id="time-select">
+              <option class="timer" value="X">CHOOSE ONE</option>
+              <option class="timer" value=".2">Soft Boil</option>
+              <option class="timer" value="8">Medium Boil</option>
+              <option class="timer" value="10">Hard Boil</option>
+              <option class="timer" value="7">My Favorite Boil</option>
+            </select>
+            <div>
+              <button id='startTimer'>Start</button>
+            </div>
+          </form>
+    </div>
+  </div>
+</body>
+</html>
