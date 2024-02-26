@@ -7,4 +7,4 @@ Pet Project Assignment
 * HTML
   
 # Live Website:
-![View Website:](Screenshot.jpeg)
+![View Website:](Screenshot.png)
