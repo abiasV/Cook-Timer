@@ -2,6 +2,6 @@
 
 Pet Project Assignment
 
-# JavaScript
-# CSS
-# HTML
+* JavaScript
+* CSS
+* HTML
